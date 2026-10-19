@@ -1,0 +1,23 @@
+# Private runtime data
+memory/
+sessions/
+*.session.json
+*.log
+
+# Downloaded installers and model artifacts
+*.exe
+*.msi
+*.part
+models/
+
+# Local configuration and secrets
+config.json
+*.local.json
+.env
+*.key
+
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
